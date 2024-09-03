@@ -13,11 +13,11 @@ body{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  margin:0px 20px 20px;
+  margin:0px 120px 0px 120px;
   padding-top:0px;
 }
 .header_logo{
-  font-size:24px;
+  font-size:18px;
   color: #f9faf9;
   display:flex;
   justify-content: flex-start;
@@ -28,13 +28,15 @@ body{
   display:flex;
   list-style-type:none;
   justify-content: space-between;
-  gap:10px;
+  gap:20px;
   padding:0px;
   margin: 0px;;
 }
 .intro{
   display:flex;
   justify-content: space-evenly;
+  margin-top:0px;
+  padding-top:0px;
 }
 .detail{
   font-size: 48px;
@@ -46,9 +48,42 @@ body{
 .detail2{
   font-size: 18px;
   color:#e5e7eb;
+  display:flex;
+  flex-wrap: wrap;
 }
 .description{
   display:flex;
   flex-direction: column;
-  
+}
+.sign_up{
+  color:#e5e7eb;
+  background:#3882f6;
+  border:none;
+  width:100px;
+  height:20px;
+  border-radius: 5px;
+  text-align: center;
+  margin:5px 0;
+}
+.information1{
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+.information{
+  background-color:whitesmoke ;
+  padding:100px;
+}
+.subtext_box{
+  display:flex;
+  flex-direction: column;
+}
+.box{
+  background-color: #3882f6;
+}
+.subtext,.box{
+  list-style: none;
+  display:flex;
+  flex-wrap:warp;
+
 }
